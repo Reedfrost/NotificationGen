@@ -49,4 +49,19 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    //Handles a click event on the new notification button
+    public void onNewButtonClick(View view) {
+
+    }
+
+    //Handles a click event on the view notifications button
+    public void onViewButtonClick(View view) {
+
+    }
+
+    //Handles a click event on the exit app button
+    public void onExitButtonClick(View view) {
+        System.exit(0);
+    }
 }
